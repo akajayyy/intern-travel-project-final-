@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Explore India - Travel Landing Page</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- NAVBAR -->
+  <nav class="navbar">
+    <div class="logo">Explore India</div>
+    <ul>
+      <li><a href="#home">Home</a></li>
+      <li><a href="#packages">Destinations</a></li>
+      <li><a href="#book">Book Now</a></li>
+      <li><a href="#about">About</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </nav>
+
+  <!-- HERO / HOME SECTION -->
+  <header class="hero" id="home">
+    <div class="hero-content">
+      <div class="hero-text">
+        <h1>Explore Incredible India</h1>
+        <p>Plan your dream holiday with the best destinations and budget-friendly packages.</p>
+        <a href="#book" class="cta-button">Book Now</a>
+      </div>
+
+      <!-- Yaha image aa rahi hai -->
+      <div class="hero-image">
+        <img src="kashmir.png" alt="Beautiful India" />
+      </div>
+    </div>
+  </header>
+
+  <!-- DESTINATIONS SECTION -->
+  <section class="packages" id="packages">
+    <h2>Top Destinations</h2>
+    <div class="cards">
+
+      <div class="card">
+        <img src="agra.png" alt="Taj Mahal, Agra" />
+        <h3>Agra</h3>
+        <p>Visit the iconic Taj Mahal and Mughal heritage.</p>
+      </div>
+
+      <div class="card">
+        <img src="goa.png" alt="Goa Beach" />
+        <h3>Goa</h3>
+        <p>Enjoy sunny beaches, water sports and nightlife.</p>
+      </div>
+
+      <div class="card">
+        <img src="kashmir.png" alt="Kashmir" />
+        <h3>Kashmir</h3>
+        <p>Experience the paradise on earth – Kashmir valley.</p>
+      </div>
+
+      <div class="card">
+        <img src="kerala.png" alt="Kerala Backwaters" />
+        <h3>Kerala</h3>
+        <p>Relax in the peaceful backwaters and greenery.</p>
+      </div>
+
+      <div class="card">
+        <img src="jaipur.png" alt="Jaipur" />
+        <h3>Jaipur</h3>
+        <p>Explore the Pink City and royal palaces.</p>
+      </div>
+
+      <div class="card">
+        <img src="kolkata.png" alt="Kolkata" />
+        <h3>Kolkata</h3>
+        <p>Discover the cultural capital of India.</p>
+      </div>
+
+      <div class="card">
+        <img src="andaman.png" alt="Andaman Islands" />
+        <h3>Andaman</h3>
+        <p>Crystal clear water and white sand beaches.</p>
+      </div>
+
+      <div class="card">
+        <img src="hampi.png" alt="Hampi" />
+        <h3>Hampi</h3>
+        <p>Walk through the ancient ruins of Vijayanagara.</p>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- BOOKING SECTION -->
+  <section class="book" id="book">
+    <h2>Book Your Trip</h2>
+    <form class="book-form">
+      <div class="form-group">
+        <label for="name">Full Name</label>
+        <input type="text" id="name" placeholder="Enter your name" required />
+      </div>
+
+      <div class="form-group">
+        <label for="email">Email Address</label>
+        <input type="email" id="email" placeholder="Enter your email" required />
+      </div>
+
+      <div class="form-group">
+        <label for="destination">Choose Destination</label>
+        <select id="destination" required>
+          <option value="">Select</option>
+          <option>Agra</option>
+          <option>Goa</option>
+          <option>Kashmir</option>
+          <option>Kerala</option>
+          <option>Jaipur</option>
+          <option>Kolkata</option>
+          <option>Andaman</option>
+          <option>Hampi</option>
+        </select>
+      </div>
+
+      <div class="form-group">
+        <label for="date">Travel Date</label>
+        <input type="date" id="date" required />
+      </div>
+
+      <button type="submit" class="cta-button">Submit</button>
+    </form>
+  </section>
+
+  <!-- ABOUT SECTION -->
+  <section class="about" id="about">
+    <h2>About Us</h2>
+    <p>
+      We are a travel agency dedicated to helping you explore the most beautiful
+      destinations of India. From mountains to beaches, we provide customized
+      and affordable tour packages for families, couples and friends.
+    </p>
+  </section>
+
+  <!-- CONTACT SECTION -->
+  <section class="contact" id="contact">
+    <h2>Contact Us</h2>
+    <p>Email: travel@exploreindia.com</p>
+    <p>Phone: +918920321298</p>
+    <p>Address: New Delhi, India</p>
+  </section>
+
+  <footer>
+    <p>© 2025 Explore India. All rights reserved.</p>
+  </footer>
+
+</body>
+</html>
